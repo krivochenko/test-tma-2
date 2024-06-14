@@ -5,6 +5,8 @@ window.Telegram.WebApp.setBackgroundColor('#111111');
 window.Telegram.WebApp.setHeaderColor('#111111');
 window.Telegram.WebApp.expand();
 
+window.Telegram.WebApp.enableClosingConfirmation();
+
 window.Telegram.WebApp.MainButton.setText('Test');
 window.Telegram.WebApp.MainButton.show();
 
