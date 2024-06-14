@@ -5,7 +5,7 @@ console.log(window.Telegram.WebApp);
 // });
 window.Telegram.WebApp.ready();
 window.Telegram.WebApp.setBackgroundColor('#ff0000');
-window.Telegram.WebApp.setHeadeColor('#ff0000');
+window.Telegram.WebApp.setHeaderColor('#ff0000');
 window.Telegram.WebApp.expand();
 
 window.Telegram.WebApp.MainButton.setText('Test');
