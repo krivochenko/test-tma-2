@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0"/>
     <title>Title</title>
     <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <link  href="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.6.2/cropper.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.6.2/cropper.min.js"></script>
 </head>
 <body style="margin: 0;">
 <div style="background: #111111; color: #ffffff; box-sizing: border-box; padding: 16px;">
@@ -45,6 +47,11 @@
         Mini Apps opened from a direct link have no access to the chat – they can't read messages or send new ones on
         behalf of the user. To send messages, the user must be redirected to inline mode and actively pick a result.
     </div>
+
+    <div>
+        <img id="image" src="https://fengyuanchen.github.io/cropperjs/images/picture.jpg">
+    </div>
+
     <input />
 </div>
 <script src="index.js?2"></script>
