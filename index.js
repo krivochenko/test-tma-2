@@ -1,8 +1,8 @@
 console.log(window.Telegram.WebApp);
 
-window.Telegram.WebApp.onEvent('viewportChanged', function(isStateStable) {
-    console.log('viewportChanged', isStateStable);
-});
+// window.Telegram.WebApp.onEvent('viewportChanged', function(isStateStable) {
+//     console.log('viewportChanged', isStateStable);
+// });
 window.Telegram.WebApp.ready();
 window.Telegram.WebApp.expand();
 
