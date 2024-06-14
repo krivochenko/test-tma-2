@@ -7,15 +7,19 @@
     <script src="index.js"></script>
 </head>
 <body style="margin: 0; height: 100%">
-    <div style="background: red; font-size: 72px; color: #ffffff; height: 100%">
-       <div>8</div>
-        <div>
-            You can use direct links to open a Mini App directly in the current chat. If a non-empty startapp parameter is included in the link, it will be passed to the Mini App in the start_param field and in the GET parameter tgWebAppStartParam.
-
-            In this mode, Mini Apps can use the chat_type and chat_instance parameters to keep track of the current chat context. This introduces support for concurrent and shared usage by multiple chat members – to create live whiteboards, group orders, multiplayer games and similar apps.
-
-            Mini Apps opened from a direct link have no access to the chat – they can't read messages or send new ones on behalf of the user. To send messages, the user must be redirected to inline mode and actively pick a result.
-        </div>
+<div style="background: red; font-size: 72px; color: #ffffff; height: 100%">
+    <div>8</div>
+    <button onClick="() => window.Telegram.WebApp.setParams({ color: '#00ff00' })">Change color</button>
+    <div>
+        You can use direct links to open a Mini App directly in the current chat. If a non-empty startapp parameter is
+        included in the link, it will be passed to the Mini App in the start_param field and in the GET parameter
+        tgWebAppStartParam.
+        In this mode, Mini Apps can use the chat_type and chat_instance parameters to keep track of the current chat
+        context. This introduces support for concurrent and shared usage by multiple chat members – to create live
+        whiteboards, group orders, multiplayer games and similar apps.
+        Mini Apps opened from a direct link have no access to the chat – they can't read messages or send new ones on
+        behalf of the user. To send messages, the user must be redirected to inline mode and actively pick a result.
     </div>
+</div>
 </body>
 </html>
