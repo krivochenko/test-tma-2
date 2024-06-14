@@ -9,7 +9,11 @@
 </head>
 <body style="margin: 0; height: 100%">
 <div style="background: red; color: #ffffff; min-height: 100%">
-    <div style="font-size: 72px;">10</div>
+    <div style="font-size: 72px;">11</div>
+    <button onClick="window.Telegram.WebApp.MainButton.hide()">Hide</button>
+    <button onClick="window.Telegram.WebApp.MainButton.show()">Show</button>
+    <button onClick="window.Telegram.WebApp.MainButton.disable()">Disable</button>
+    <button onClick="window.Telegram.WebApp.MainButton.enable()">Enable</button>
     <button onClick="window.Telegram.WebApp.MainButton.setParams({ color: '#00ff00' })">Change color</button>
     <div>
         You can use direct links to open a Mini App directly in the current chat. If a non-empty startapp parameter is
