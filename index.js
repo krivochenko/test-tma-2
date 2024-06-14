@@ -4,6 +4,8 @@ console.log(window.Telegram.WebApp);
 //     console.log('viewportChanged', isStateStable);
 // });
 window.Telegram.WebApp.ready();
+window.Telegram.WebApp.setBackgroundColor('#ff0000');
+window.Telegram.WebApp.setHeadeColor('#ff0000');
 window.Telegram.WebApp.expand();
 
 window.Telegram.WebApp.MainButton.setText('Test');
