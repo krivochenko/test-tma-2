@@ -16,8 +16,24 @@
     <button onClick="window.Telegram.WebApp.MainButton.enable()">Enable</button>
     <button onClick="window.Telegram.WebApp.MainButton.setParams({ color: '#00ff00' })">Green</button>
     <button onClick="window.Telegram.WebApp.MainButton.setParams({ color: '#0000ff' })">Blue</button>
-    <div id="counter">0</div>
+    <div id="counter" style="font-size: 96px;">0</div>
     <div>
+        You can use direct links to open a Mini App directly in the current chat. If a non-empty startapp parameter is
+        included in the link, it will be passed to the Mini App in the start_param field and in the GET parameter
+        tgWebAppStartParam.
+        In this mode, Mini Apps can use the chat_type and chat_instance parameters to keep track of the current chat
+        context. This introduces support for concurrent and shared usage by multiple chat members – to create live
+        whiteboards, group orders, multiplayer games and similar apps.
+        Mini Apps opened from a direct link have no access to the chat – they can't read messages or send new ones on
+        behalf of the user. To send messages, the user must be redirected to inline mode and actively pick a result.
+        You can use direct links to open a Mini App directly in the current chat. If a non-empty startapp parameter is
+        included in the link, it will be passed to the Mini App in the start_param field and in the GET parameter
+        tgWebAppStartParam.
+        In this mode, Mini Apps can use the chat_type and chat_instance parameters to keep track of the current chat
+        context. This introduces support for concurrent and shared usage by multiple chat members – to create live
+        whiteboards, group orders, multiplayer games and similar apps.
+        Mini Apps opened from a direct link have no access to the chat – they can't read messages or send new ones on
+        behalf of the user. To send messages, the user must be redirected to inline mode and actively pick a result.
         You can use direct links to open a Mini App directly in the current chat. If a non-empty startapp parameter is
         included in the link, it will be passed to the Mini App in the start_param field and in the GET parameter
         tgWebAppStartParam.
