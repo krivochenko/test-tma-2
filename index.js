@@ -4,7 +4,7 @@ let scrolled = false
 
 window.Telegram.WebApp.onEvent('viewportChanged', function(isStateStable) {
     if (!scrolled && isStateStable) {
-        window.scrollTo(0, 100);
+        window.scrollTo(0, 1);
     }
 });
 
