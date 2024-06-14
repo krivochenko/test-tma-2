@@ -1,10 +1,15 @@
 console.log(window.Telegram.WebApp);
 
+window.Telegram.WebApp.onEvent('viewportChanged', function(isStateStable) {
+    console.log('viewportChanged', isStateStable);
+});
 window.Telegram.WebApp.ready();
 window.Telegram.WebApp.expand();
 
 window.Telegram.WebApp.MainButton.setText('Test');
 window.Telegram.WebApp.MainButton.show();
+
+
 
 const overflow = 100;
 
