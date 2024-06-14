@@ -9,8 +9,8 @@ window.Telegram.WebApp.onEvent('viewportChanged', function(isStateStable) {
 });
 
 window.Telegram.WebApp.ready();
-window.Telegram.WebApp.setBackgroundColor('#ff0000');
-window.Telegram.WebApp.setHeaderColor('#ff0000');
+window.Telegram.WebApp.setBackgroundColor('#000000');
+window.Telegram.WebApp.setHeaderColor('#000000');
 window.Telegram.WebApp.expand();
 
 window.Telegram.WebApp.MainButton.setText('Test');
